@@ -13,6 +13,7 @@ DateTime
 emoji
 ffmpeg-python
 fonttools
+flask
 geopy
 gitpython
 glitch_this
