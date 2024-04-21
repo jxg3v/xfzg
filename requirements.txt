@@ -79,6 +79,6 @@ wget
 youtube-search-python==1.4.9
 youtube-search
 youtube_dl
-yt-dlp==2023.11.16
+yt-dlp==2024.04.09
 git+https://github.com/buddhhu/img2html.git
 git+https://github.com/sandy1709/py-googletrans
