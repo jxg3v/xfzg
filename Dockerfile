@@ -1,4 +1,4 @@
-FROM RepthonArabic/Repthon:slim-buster
+FROM RepthonArabic/mero:slim-buster
 
 RUN git clone https://github.com/RepthonArabic/Repthon.git /root/repthon
 
@@ -11,4 +11,4 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 ENV PATH="/home/repthon/bin:$PATH"
 
-CMD ["python3","-m","repthon"]
+CMD ["python3","-m","mero"]
